@@ -1,13 +1,13 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "YourBotUsername",
+    "username": "Mettaton",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "your.server.ip",
-    "port": 25565,
+    "ip": "the-floor.aternos.me",
+    "port": 59294,
     "version": "",
     "try-creative": false
   },
@@ -28,11 +28,11 @@
     },
     "chat-messages": {
       "enabled": true,
-      "repeat": true,
+      "repeat": false,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "I like to play Minecraft!"
+        "The bot is online and working.",
+        "The bot is working greatly!"
       ]
     },
     "chat-log": true,
@@ -58,7 +58,7 @@
   },
   "modules": {
     "avoidMobs": true,
-    "combat": true,
+    "combat": false,
     "beds": false,
     "chat": true,
     "console-commands": true
@@ -81,7 +81,7 @@
     }
   },
   "chat": {
-    "respond": true,
-    "tpWhitelist": ["YourMinecraftUsername"]
+    "respond": false,
+    "tpWhitelist": ["endberry"]
   }
 }
